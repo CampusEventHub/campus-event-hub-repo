@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CAudVuHGlXBSrMKfqfWRfkkAK7Ud6s4vKtjnEkf3AsM=",
+  "Source": "CampusEventHubApi",
+  "BasePath": "_content/CampusEventHubApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
