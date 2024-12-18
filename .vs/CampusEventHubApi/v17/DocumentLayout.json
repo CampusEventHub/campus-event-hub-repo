@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\oop vjezba\\campuseventhubpi\\campuseventhubapi\\campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\UsersController.cs",
               "RelativeToolTip": "CampusEventHubApi\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAABqAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAADwv3oAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:11:53.791Z"
+              "WhenOpened": "2024-12-05T16:11:53.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EventsController.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\EventsController.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "CampusEventHubApi\\Controllers\\EventsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAwAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:08:48.363Z"
+              "WhenOpened": "2024-12-05T15:08:48.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TestController.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\TestController.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Controllers\\TestController.cs",
               "RelativeToolTip": "CampusEventHubApi\\Controllers\\TestController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:15:48.909Z"
+              "WhenOpened": "2024-12-05T11:15:48.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\appsettings.json",
               "RelativeDocumentMoniker": "CampusEventHubApi\\appsettings.json",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\appsettings.json",
               "RelativeToolTip": "CampusEventHubApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T10:43:31.913Z"
+              "WhenOpened": "2024-12-05T10:43:31.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Program.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Program.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Program.cs",
               "RelativeToolTip": "CampusEventHubApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAkAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwDcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T10:33:58.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:22:43.38Z"
+              "WhenOpened": "2024-12-05T10:22:43.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Models\\Event.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\Event.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Models\\Event.cs",
               "RelativeToolTip": "CampusEventHubApi\\Models\\Event.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABCAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwCQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:20:42.898Z"
+              "WhenOpened": "2024-12-05T10:20:42.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\User.cs",
               "ToolTip": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\Models\\User.cs",
               "RelativeToolTip": "CampusEventHubApi\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvyIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:20:36.215Z"
+              "WhenOpened": "2024-12-05T10:20:36.215Z",
+              "EditorCaption": ""
             }
           ]
         }

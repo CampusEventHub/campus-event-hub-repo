@@ -21,6 +21,15 @@ namespace CampusEventHubApi.Controllers
             _context = context;
         }
 
+        // GET: api/Users
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        {
+            var users = await _context.User.ToListAsync();
+
+            return Ok(users); // Return all users as an array
+        }
+
         // POST: api/Users/Register
         [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] User newUser)
@@ -64,6 +73,74 @@ namespace CampusEventHubApi.Controllers
 
             // login uspjesan!!!!!!!!!!
             return Ok(new { user.IDUser, user.Username, user.IsAdmin });
+        }
+
+        // GET: api/Users/{id}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<User>> GetUserById(int id)
+        {
+            var user = await _context.User.FindAsync(id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
+        // PUT: api/Users/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User updatedUser)
+        {
+            if (updatedUser == null)
+            {
+                return BadRequest("User data is required.");
+            }
+
+            // Check if the user exists
+            var existingUser = await _context.User.FindAsync(id);
+            if (existingUser == null)
+            {
+                return NotFound(); // Return 404 if the user does not exist
+            }
+
+            // Optionally, you can check if the username or email is already taken by another user
+            if (_context.User.Any(u => (u.Username == updatedUser.Username || u.Email == updatedUser.Email) && u.IDUser != id))
+            {
+                return BadRequest("Username or email is already taken.");
+            }
+
+            // Update the user's fields
+            existingUser.Username = updatedUser.Username;
+            existingUser.Email = updatedUser.Email;
+            existingUser.PasswordHash = updatedUser.PasswordHash; // You can hash the password again if it's updated
+            existingUser.IsAdmin = updatedUser.IsAdmin;
+            existingUser.ImageUrl = updatedUser.ImageUrl;
+
+            // Save changes to the database
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Return 204 No Content if the update is successful
+        }
+
+
+
+        // DELETE: api/Users/{id}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            var user = await _context.User.FindAsync(id);
+
+            if (user == null)
+            {
+                return NotFound(); // Return 404 if user not found
+            }
+
+            _context.User.Remove(user);
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Return 204 No Content (successful deletion)
         }
 
         // hashiranje i saltiranje passworda (HMACSHA512)

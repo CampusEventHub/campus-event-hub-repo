@@ -166,3 +166,4 @@ D:\oop vjezba\CampusEventHubPI\CampusEventHubApi\CampusEventHubApi\obj\Debug\net
 D:\oop vjezba\CampusEventHubPI\CampusEventHubApi\CampusEventHubApi\obj\Debug\net8.0\CampusEventHubApi.pdb
 D:\oop vjezba\CampusEventHubPI\CampusEventHubApi\CampusEventHubApi\obj\Debug\net8.0\CampusEventHubApi.genruntimeconfig.cache
 D:\oop vjezba\CampusEventHubPI\CampusEventHubApi\CampusEventHubApi\obj\Debug\net8.0\ref\CampusEventHubApi.dll
+D:\oop vjezba\CampusEventHubPI\CampusEventHubApi\CampusEventHubApi\obj\Debug\net8.0\CampusEventHubApi.sourcelink.json
