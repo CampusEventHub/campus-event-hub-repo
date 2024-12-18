@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-brand {
+  margin-left: 0px;
+}
+
+.event-header{
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+  align-items: center;
+  text-align: center;
+}
+
+.event-list-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 10px;      
+}
+
+.event-container {
+  position: relative;
+}
+
+.event-start-date {
+  font-size: 14px;
+  color: #555;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.search-input {
+  width: 350px;
+}
