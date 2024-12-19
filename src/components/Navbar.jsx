@@ -24,7 +24,7 @@ function NavBar({ onSearch }) {
             <FormControl
               type="text"
               placeholder="Search Events"
-              className="me-2 search-input" // Apply the class here
+              className="me-2 search-input"
               value={searchTerm}
               onChange={(e) => {
                 setSearchTerm(e.target.value);
@@ -35,8 +35,6 @@ function NavBar({ onSearch }) {
               Search
             </Button>
           </Form>
-
-          {/* Add User Profile Icon */}
           <Nav>
             <Nav.Link as={Link} to="/user-profile">
               <FaUserCircle size={30} color="white" />

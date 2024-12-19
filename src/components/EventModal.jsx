@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
-import { getUserById } from "../services/usersService"; // Adjust the path as needed
+import { getUserById } from "../services/usersService";
 
 const EventModal = ({ event, onClose }) => {
-  const [userName, setUserName] = useState(""); // State to store the user's name
+  const [userName, setUserName] = useState(""); 
 
-  // Fetch the user name when the event is provided
+
   useEffect(() => {
     const fetchUserName = async () => {
       if (event && event.userID) {
         try {
-          const user = await getUserById(event.userID); // Fetch user by ID
-          setUserName(user.username); // Set the username from the response
+          const user = await getUserById(event.userID);
+          setUserName(user.username);
         } catch (error) {
           console.error("Failed to fetch user data:", error);
         }
@@ -19,7 +19,7 @@ const EventModal = ({ event, onClose }) => {
     };
 
     fetchUserName();
-  }, [event]); // This will run whenever the event changes
+  }, [event]);
 
   if (!event) return null;
 

@@ -1,6 +1,6 @@
 const API_URL = "https://localhost:7149/api/Users";
 
-// Function to get user by ID
+// geta usera po id-u
 export const getUserById = async (userId) => {
   try {
     const response = await fetch(`${API_URL}/${userId}`);
