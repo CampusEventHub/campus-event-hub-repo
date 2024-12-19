@@ -27,7 +27,7 @@ namespace CampusEventHubApi.Controllers
         {
             var users = await _context.User.ToListAsync();
 
-            return Ok(users); // Return all users as an array
+            return Ok(users);
         }
 
         // POST: api/Users/Register
@@ -102,26 +102,23 @@ namespace CampusEventHubApi.Controllers
             var existingUser = await _context.User.FindAsync(id);
             if (existingUser == null)
             {
-                return NotFound(); // Return 404 if the user does not exist
+                return NotFound();
             }
 
-            // Optionally, you can check if the username or email is already taken by another user
             if (_context.User.Any(u => (u.Username == updatedUser.Username || u.Email == updatedUser.Email) && u.IDUser != id))
             {
                 return BadRequest("Username or email is already taken.");
             }
 
-            // Update the user's fields
             existingUser.Username = updatedUser.Username;
             existingUser.Email = updatedUser.Email;
-            existingUser.PasswordHash = updatedUser.PasswordHash; // You can hash the password again if it's updated
+            existingUser.PasswordHash = updatedUser.PasswordHash;
             existingUser.IsAdmin = updatedUser.IsAdmin;
             existingUser.ImageUrl = updatedUser.ImageUrl;
 
-            // Save changes to the database
             await _context.SaveChangesAsync();
 
-            return NoContent(); // Return 204 No Content if the update is successful
+            return NoContent();
         }
 
 
@@ -134,13 +131,13 @@ namespace CampusEventHubApi.Controllers
 
             if (user == null)
             {
-                return NotFound(); // Return 404 if user not found
+                return NotFound();
             }
 
             _context.User.Remove(user);
             await _context.SaveChangesAsync();
 
-            return NoContent(); // Return 204 No Content (successful deletion)
+            return NoContent();
         }
 
         // hashiranje i saltiranje passworda (HMACSHA512)
