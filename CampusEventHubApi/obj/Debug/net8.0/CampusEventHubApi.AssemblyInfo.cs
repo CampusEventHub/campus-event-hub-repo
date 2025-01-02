@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusEventHubApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f8313833b12f9aa0376f6169f2a8d59d489ca7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89a11d4c167eb2c7a656f74069cb64f599cd0ad3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusEventHubApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusEventHubApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

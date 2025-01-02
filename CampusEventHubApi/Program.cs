@@ -103,9 +103,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// CORS should come before Authentication and Authorization
 app.UseCors("AllowAll");
 
-// Aktivacija autentifikacije i autorizacije
+// Enable authentication and authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
