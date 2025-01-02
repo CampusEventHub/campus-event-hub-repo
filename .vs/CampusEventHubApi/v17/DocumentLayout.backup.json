@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PIProject\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\interfaces\\ieventmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\interfaces\\ieventmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\migrations\\20250102160145_solidprinciptest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\migrations\\20250102160145_solidprinciptest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampusEventHubApi\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\migrations\\20250102163239_potencialnifix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\migrations\\20250102163239_potencialnifix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250102163239_potencialnifix.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:32:39.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:59:39.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:08:48.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:22:43.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\TestController.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:15:48.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\Event.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\Event.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Models\\Event.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:20:42.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:59:35.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\appsettings.json",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\appsettings.json",
+              "RelativeToolTip": "CampusEventHubApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T10:43:31.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Program.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:33:58.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHashProvider.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Security\\PasswordHashProvider.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Security\\PasswordHashProvider.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Security\\PasswordHashProvider.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Security\\PasswordHashProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:12:03.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEventManagementService.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:20:56.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250102160145_SolidPrincipTest1.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:01:45.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250102123933_SplitTest1.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:39:34.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:11:53.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\User.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\User.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:20:36.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CampusEventHubApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T15:58:32.709Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
