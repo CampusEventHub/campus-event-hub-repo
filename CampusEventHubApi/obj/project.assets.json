@@ -60,6 +60,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -1010,13 +1029,13 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
-      "Swashbuckle.AspNetCore/7.1.0": {
+      "Swashbuckle.AspNetCore/7.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
-          "Swashbuckle.AspNetCore.Swagger": "7.1.0",
-          "Swashbuckle.AspNetCore.SwaggerGen": "7.1.0",
-          "Swashbuckle.AspNetCore.SwaggerUI": "7.1.0"
+          "Swashbuckle.AspNetCore.Swagger": "7.2.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "7.2.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "7.2.0"
         },
         "build": {
           "build/Swashbuckle.AspNetCore.props": {}
@@ -1025,7 +1044,7 @@
           "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/7.1.0": {
+      "Swashbuckle.AspNetCore.Swagger/7.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.6.22"
@@ -1044,10 +1063,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/7.1.0": {
+      "Swashbuckle.AspNetCore.SwaggerGen/7.2.0": {
         "type": "package",
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "7.1.0"
+          "Swashbuckle.AspNetCore.Swagger": "7.2.0"
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
@@ -1060,7 +1079,7 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/7.1.0": {
+      "Swashbuckle.AspNetCore.SwaggerUI/7.2.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
@@ -1756,6 +1775,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.5": {
+      "sha512": "dS6LPC7ZwJUcxcnB7KBh5L7iO9dbzEuVrNv2YrtiUCclcvBCfCJ/UKlvgHedjd4VcB6bzHcj3sEmFZlfH6qH0Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -3862,23 +3896,24 @@
         "readme.md"
       ]
     },
-    "Swashbuckle.AspNetCore/7.1.0": {
-      "sha512": "PpKwEZNCciDPczWPnuqaTVuN5jR/fG2RubQYgKHVWY2KB+TpvKkOrQJoF51S1yMJxygaofCM3BXlLy4PK/o8WA==",
+    "Swashbuckle.AspNetCore/7.2.0": {
+      "sha512": "vJv19UpWm6OOgnS9QLDnWARNVasXUfj8SFvlG7UVALm4nBnfwRnEky7C0veSDqMUmBeMPC6Ec3d6G1ts/J04Uw==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore/7.1.0",
+      "path": "swashbuckle.aspnetcore/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Swashbuckle.AspNetCore.props",
         "buildMultiTargeting/Swashbuckle.AspNetCore.props",
-        "swashbuckle.aspnetcore.7.1.0.nupkg.sha512",
+        "docs/package-readme.md",
+        "swashbuckle.aspnetcore.7.2.0.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/7.1.0": {
-      "sha512": "+vzt/nV82YVCJt7GIuRV9xe67dvzrVwqDgO8DiQPmUZwtvtjK4rrb+qnoXbcu90VVaz2xjEK/Ma5/3AVWifSHQ==",
+    "Swashbuckle.AspNetCore.Swagger/7.2.0": {
+      "sha512": "y27fNDfIh1vGhJjXYynLcZjl7DLOW1bSO2MDsY9wB4Zm1fdxpPsuBSiR4U+0acWlAqLmnuOPKr/OeOgwRUkBlw==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/7.1.0",
+      "path": "swashbuckle.aspnetcore.swagger/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3895,14 +3930,14 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swagger.7.1.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/7.1.0": {
-      "sha512": "Nd1O1rVTpeX3U2fr+4FMjTD1BqnGBZcX5t0EkhVBdQWz/anf/68xTpJpAjZ9DS9CVDVKAm7qI6eJmq9psqFpVQ==",
+    "Swashbuckle.AspNetCore.SwaggerGen/7.2.0": {
+      "sha512": "pMrTxGVuXM7t4wqft5CNNU8A0++Yw5kTLmYhB6tbEcyBfO8xEF/Y8pkJhO6BZ/2MYONrRYoQTfPFJqu8fOf5WQ==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/7.1.0",
+      "path": "swashbuckle.aspnetcore.swaggergen/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3919,14 +3954,14 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggergen.7.1.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/7.1.0": {
-      "sha512": "Tn9+gbG2wGekFDcm1+XQXPZoSZWOHn3DiEGaEw3/SMCtKdhkYiejoKpmTzZueKOBQf0Lzgvxs6Lss0WObN0RPA==",
+    "Swashbuckle.AspNetCore.SwaggerUI/7.2.0": {
+      "sha512": "hgrXeKzyp5OGN8qVvL7A+vhmU7mDJTfGpiMBRL66IcfLOyna8UTLtn3cC3CghamXpRDufcc9ciklTszUGEQK0w==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggerui/7.1.0",
+      "path": "swashbuckle.aspnetcore.swaggerui/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3943,7 +3978,7 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggerui.7.1.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
@@ -5149,29 +5184,30 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
-      "Swashbuckle.AspNetCore >= 7.1.0"
+      "Swashbuckle.AspNetCore >= 7.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ariies\\.nuget\\packages\\": {},
+    "C:\\Users\\Pavel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\CampusEventHubApi.csproj",
+      "projectUniqueName": "D:\\PIProject\\backend\\CampusEventHubApi\\CampusEventHubApi.csproj",
       "projectName": "CampusEventHubApi",
-      "projectPath": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\CampusEventHubApi.csproj",
-      "packagesPath": "C:\\Users\\Ariies\\.nuget\\packages\\",
-      "outputPath": "D:\\oop vjezba\\CampusEventHubPI\\CampusEventHubApi\\CampusEventHubApi\\obj\\",
+      "projectPath": "D:\\PIProject\\backend\\CampusEventHubApi\\CampusEventHubApi.csproj",
+      "packagesPath": "C:\\Users\\Pavel\\.nuget\\packages\\",
+      "outputPath": "D:\\PIProject\\backend\\CampusEventHubApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ariies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5180,7 +5216,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5198,12 +5233,17 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[9.0.0, )"
@@ -5216,7 +5256,7 @@
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[7.1.0, )"
+            "version": "[7.2.0, )"
           }
         },
         "imports": [
@@ -5238,7 +5278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

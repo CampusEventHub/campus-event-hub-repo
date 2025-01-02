@@ -1,119 +1,96 @@
-﻿using Microsoft.AspNetCore.Http;
-using CampusEventHubApi.Data;
+﻿using CampusEventHubApi.DTOs;
 using CampusEventHubApi.Models;
+using CampusEventHubApi.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-
 
 namespace CampusEventHubApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EventsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IEventManagementService _eventService;
 
-        public EventsController (ApplicationDbContext context)
+        public EventsController(IEventManagementService eventService)
         {
-            _context = context;
+            _eventService = eventService;
         }
 
-        // GET: api/Events
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Event>>> GetEvents()
         {
-            return await _context.Event.ToListAsync();
+            return Ok(await _eventService.GetAllEventsAsync());
         }
 
-        // GET: api/Events/id
         [HttpGet("{id}")]
         public async Task<ActionResult<Event>> GetEvent(int id)
         {
-            var eventItem = await _context.Event.FindAsync(id);
-
+            var eventItem = await _eventService.GetEventByIdAsync(id);
             if (eventItem == null)
-            {
                 return NotFound();
-            }
 
-            return eventItem;
+            return Ok(eventItem);
         }
 
-        // POST: api/Events
         [HttpPost]
-        public async Task<IActionResult> CreateEvent([FromBody] Event newEvent)
+        public async Task<IActionResult> CreateEvent([FromBody] EventRequest request)
         {
-            if (newEvent == null)
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var newEvent = new Event
             {
-                return BadRequest("Nema event date.");
-            }
-            
+                Title = request.Title,
+                Description = request.Description,
+                Location = request.Location,
+                StartDate = request.StartDate,
+                EndDate = request.EndDate,
+                UserID = request.UserID
+            };
 
-            var user = await _context.User.FindAsync(newEvent.UserID);
-            if (user == null)
-            {
-                return BadRequest("User nije pronaden.");
-            }
-
-            newEvent.CreatedAt = DateTime.UtcNow;
-
-            _context.Event.Add(newEvent);
-            await _context.SaveChangesAsync();
+            var result = await _eventService.CreateEventAsync(newEvent);
+            if (!result)
+                return BadRequest("User not found.");
 
             return CreatedAtAction(nameof(CreateEvent), new { id = newEvent.IDEvent }, newEvent);
         }
 
-        // PUT: api/Events/id
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEvent(int id, Event eventItem)
+        public async Task<IActionResult> UpdateEvent(int id, [FromBody] EventRequest request)
         {
-            if (id != eventItem.IDEvent)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(eventItem).State = EntityState.Modified;
+            var updatedEvent = new Event
+            {
+                IDEvent = id,
+                Title = request.Title,
+                Description = request.Description,
+                Location = request.Location,
+                StartDate = request.StartDate,
+                EndDate = request.EndDate,
+                UserID = request.UserID
+            };
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!EventExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            var result = await _eventService.UpdateEventAsync(id, updatedEvent);
+            if (!result)
+                return NotFound();
 
             return NoContent();
         }
 
-        // DELETE: api/Events/id
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
-            var eventItem = await _context.Event.FindAsync(id);
-            if (eventItem == null)
-            {
+            var result = await _eventService.DeleteEventAsync(id);
+            if (!result)
                 return NotFound();
-            }
-
-            _context.Event.Remove(eventItem);
-            await _context.SaveChangesAsync();
 
             return NoContent();
         }
-
-        private bool EventExists(int id)
-        {
-            return _context.Event.Any(e => e.IDEvent == id);
-        }
-
     }
 }
