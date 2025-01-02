@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import axios from 'axios';  // Import axios
 
 function RegisterModal({ show, handleClose }) {
   const [username, setUsername] = useState('');
@@ -9,40 +10,57 @@ function RegisterModal({ show, handleClose }) {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
-  const handleRegister = () => {
-    // provjertava jeli prazno ista
+  const handleRegister = async () => {
+    // Check if all fields are filled
     if (username === '' || email === '' || password === '' || confirmPassword === '') {
       setError('Please fill out all fields.');
       setSuccess('');
       return;
     }
 
-    // jese podudaraju sifre
+    // Check if passwords match
     if (password !== confirmPassword) {
       setError('Passwords do not match.');
       setSuccess('');
       return;
     }
 
-    // sifra mora bit duza od 6 znaka
+    // Check if password length is sufficient
     if (password.length < 6) {
       setError('Password must be at least 6 characters long.');
       setSuccess('');
       return;
     }
 
-    // USPILO!!!!!!! u zelenoj boji B-)
     setError('');
-    setSuccess('Registration successful!');
-    console.log('Registration attempt:', { username, email, password });
+    setSuccess('');  // Clear previous success messages
 
-    //2 sekunde delay da ne zatvori pre brzo
-    setTimeout(() => {
-        handleClose();
-      }, 2000);
+    // Prepare the request data
+    const userData = {
+      username: username,
+      email: email,
+      password: password,
+    };
 
+    try {
+      // Send a POST request to the backend API to register the user
+      const response = await axios.post('https://localhost:7149/api/Auth/Register', userData);
 
-      console.log('Registration attempt:', { username, email, password });
+      // Check if the registration is successful
+      if (response.status === 200) {
+        setSuccess('Registration successful!');
+        setTimeout(() => {
+          handleClose(); // Close the modal after 2 seconds
+        }, 2000);
+      }
+    } catch (err) {
+      // Handle errors from the backend
+      if (err.response && err.response.data) {
+        setError(err.response.data); // Show backend error message
+      } else {
+        setError('Something went wrong. Please try again later.');
+      }
+    }
   };
 
   return (
