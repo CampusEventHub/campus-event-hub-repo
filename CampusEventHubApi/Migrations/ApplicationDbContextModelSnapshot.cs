@@ -106,6 +106,11 @@ namespace CampusEventHubApi.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("Salt")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(50)
