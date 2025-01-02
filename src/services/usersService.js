@@ -5,7 +5,7 @@ export const loginUser = async (username, password) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ username, password }),  // Sending username and password
+      body: JSON.stringify({ username, password }),
     });
 
     if (!response.ok) {
@@ -13,9 +13,9 @@ export const loginUser = async (username, password) => {
     }
 
     const data = await response.json();
-    console.log('Login response:', data);  // Log the response to check if token is returned
+    console.log('Login response:', data);
 
-    return data.token;  // Assuming the backend returns a token
+    return data.token;
   } catch (error) {
     console.error('Login error:', error);
     throw error;
@@ -24,7 +24,6 @@ export const loginUser = async (username, password) => {
 
 export const getUserById = async (userId) => {
   try {
-    // Get the token from localStorage
     const token = localStorage.getItem('authToken');
     
     if (!token) {
@@ -34,7 +33,7 @@ export const getUserById = async (userId) => {
     const response = await fetch(`https://localhost:7149/api/users/${userId}`, {
       method: 'GET',
       headers: {
-        'Authorization': `Bearer ${token}`, // Use stored JWT token
+        'Authorization': `Bearer ${token}`,
       },
     });
 
@@ -43,7 +42,7 @@ export const getUserById = async (userId) => {
     }
 
     const userData = await response.json();
-    return userData; // Assuming user data is returned in the response
+    return userData;
   } catch (error) {
     console.error('Get user by ID error:', error);
     throw error;

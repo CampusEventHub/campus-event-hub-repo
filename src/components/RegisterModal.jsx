@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
-import axios from 'axios';  // Import axios
+import axios from 'axios';
 
 function RegisterModal({ show, handleClose }) {
   const [username, setUsername] = useState('');
@@ -11,21 +11,19 @@ function RegisterModal({ show, handleClose }) {
   const [success, setSuccess] = useState('');
 
   const handleRegister = async () => {
-    // Check if all fields are filled
+
     if (username === '' || email === '' || password === '' || confirmPassword === '') {
       setError('Please fill out all fields.');
       setSuccess('');
       return;
     }
 
-    // Check if passwords match
     if (password !== confirmPassword) {
       setError('Passwords do not match.');
       setSuccess('');
       return;
     }
 
-    // Check if password length is sufficient
     if (password.length < 6) {
       setError('Password must be at least 6 characters long.');
       setSuccess('');
@@ -33,9 +31,8 @@ function RegisterModal({ show, handleClose }) {
     }
 
     setError('');
-    setSuccess('');  // Clear previous success messages
+    setSuccess('');
 
-    // Prepare the request data
     const userData = {
       username: username,
       email: email,
@@ -43,20 +40,17 @@ function RegisterModal({ show, handleClose }) {
     };
 
     try {
-      // Send a POST request to the backend API to register the user
       const response = await axios.post('https://localhost:7149/api/Auth/Register', userData);
 
-      // Check if the registration is successful
       if (response.status === 200) {
         setSuccess('Registration successful!');
         setTimeout(() => {
-          handleClose(); // Close the modal after 2 seconds
+          handleClose();
         }, 2000);
       }
     } catch (err) {
-      // Handle errors from the backend
       if (err.response && err.response.data) {
-        setError(err.response.data); // Show backend error message
+        setError(err.response.data);
       } else {
         setError('Something went wrong. Please try again later.');
       }

@@ -1,44 +1,41 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar'; // cacheirano staro ime mozda ali radi?? xd
 import LoginModal from './components/LoginModal';
-import RegisterModal from './components/RegisterModal'; // Import RegisterModal
-import WelcomeModal from './components/WelcomeModal'; // Import WelcomeModal
+import RegisterModal from './components/RegisterModal';
+import WelcomeModal from './components/WelcomeModal';
 import HomePage from './pages/HomePage';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
-  const [showRegister, setShowRegister] = useState(false); // State for RegisterModal
-  const [showWelcome, setShowWelcome] = useState(false); // State for WelcomeModal
+  const [showRegister, setShowRegister] = useState(false);
+  const [showWelcome, setShowWelcome] = useState(false);
 
   const handleShowLogin = () => setShowLogin(true);
   const handleCloseLogin = () => setShowLogin(false);
   
-  const handleShowRegisterModal = () => setShowRegister(true); // Function to show RegisterModal
-  const handleCloseRegister = () => setShowRegister(false); // Function to close RegisterModal
+  const handleShowRegisterModal = () => setShowRegister(true);
+  const handleCloseRegister = () => setShowRegister(false);
   
-  const handleShowWelcomeModal = () => setShowWelcome(true); // Function to show WelcomeModal
-  const handleCloseWelcomeModal = () => setShowWelcome(false); // Function to close WelcomeModal
+  const handleShowWelcomeModal = () => setShowWelcome(true);
+  const handleCloseWelcomeModal = () => setShowWelcome(false);
 
   return (
     <Router>
       <NavBar onProfileClick={handleShowLogin} />
       
-      {/* Pass handleShowWelcomeModal to LoginModal */}
       <LoginModal
         show={showLogin}
         handleClose={handleCloseLogin}
         handleShowRegisterModal={handleShowRegisterModal} 
-        handleShowWelcomeModal={handleShowWelcomeModal} // Pass to LoginModal
+        handleShowWelcomeModal={handleShowWelcomeModal}
       />
 
-      {/* Register Modal */}
       <RegisterModal
         show={showRegister}
         handleClose={handleCloseRegister}
       />
 
-      {/* Welcome Modal */}
       <WelcomeModal
         show={showWelcome}
         handleClose={handleCloseWelcomeModal}
