@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import EventList from '../components/EventList';
-import SearchNavbar from '../components/Navbar';
 import { fetchEvents } from '../services/eventsService';
 
 function HomePage() {
@@ -39,9 +38,8 @@ function HomePage() {
 
   return (
     <div>
-      <SearchNavbar onSearch={handleSearch} />
       <div className="event-header">
-      <h2><b>EVENTS</b></h2>
+        <h2><b>EVENTS</b></h2>
       </div>
       <EventList events={filteredEvents} />
     </div>
