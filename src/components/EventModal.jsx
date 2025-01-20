@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { getUserById } from "../services/usersService";
+import StarRating from "./StarRating";
 
 const EventModal = ({ event, onClose }) => {
-  const [userName, setUserName] = useState(""); 
-
+  const [userName, setUserName] = useState("");
+  const [rating, setRating] = useState(0); // State to track the rating
 
   useEffect(() => {
     const fetchUserName = async () => {
@@ -22,6 +23,12 @@ const EventModal = ({ event, onClose }) => {
   }, [event]);
 
   if (!event) return null;
+
+  const handleRatingChange = (newRating) => {
+    setRating(newRating);
+    // Handle the rating change (e.g., save it to the backend later)
+    console.log("Rating selected:", newRating);
+  };
 
   return (
     <Modal show={true} onHide={onClose} centered>
@@ -44,9 +51,12 @@ const EventModal = ({ event, onClose }) => {
         <p>
           <strong>End:</strong> {new Date(event.endDate).toLocaleString()}
         </p>
-        <p>
-          <strong>Created By:</strong> {userName || "Loading..."}
-        </p>
+
+        {/* Star Rating */}
+        <div style={{ marginTop: "20px" }}>
+          <h5>Rate this event:</h5>
+          <StarRating rating={rating} onRatingChange={handleRatingChange} />
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onClose}>

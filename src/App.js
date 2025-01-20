@@ -5,6 +5,7 @@ import LoginModal from './components/LoginModal';
 import RegisterModal from './components/RegisterModal';
 import WelcomeModal from './components/WelcomeModal';
 import HomePage from './pages/HomePage';
+import CalendarPage from './pages/CalendarPage'; // Import the new CalendarPage component
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -43,6 +44,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/calendar" element={<CalendarPage />} /> {/* Add this line for the calendar page */}
       </Routes>
     </Router>
   );

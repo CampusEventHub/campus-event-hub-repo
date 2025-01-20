@@ -13,6 +13,7 @@ function NavBar({ onProfileClick }) {
         <BootstrapNavbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/calendar">Calendar</Nav.Link> {/* Add this link */}
           </Nav>
           <Form className="d-flex">
             <FormControl
