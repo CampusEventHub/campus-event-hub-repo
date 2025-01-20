@@ -3,68 +3,136 @@
   "WorkspaceRootPath": "D:\\PIProject\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\kalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\kalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\interfaces\\ikalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\interfaces\\ikalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\decorators\\ocjenavalidationdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\decorators\\ocjenavalidationdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\decorators\\validationdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\decorators\\validationdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\interfaces\\ieventmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\interfaces\\ieventmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\controllers\\kalendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\controllers\\kalendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\migrations\\20250102160145_solidprinciptest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\migrations\\20250102160145_solidprinciptest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\usermanagementservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\usermanagementservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\kalendarservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\kalendarservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampusEventHubApi\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\migrations\\20250102163239_potencialnifix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\migrations\\20250102163239_potencialnifix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\authenticationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\authenticationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\security\\jwttokenprovidertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\security\\jwttokenprovidertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\models\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\models\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\models\\kalendartests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\models\\kalendartests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\models\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\models\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\controllers\\ocjenecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\controllers\\ocjenecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\controllers\\kalendarcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\controllers\\kalendarcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\controllers\\eventscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\controllers\\eventscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\factories\\kalendardtofactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\factories\\kalendardtofactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\factories\\ocjenadtofactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\factories\\ocjenadtofactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\enums\\strategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\enums\\strategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\factories\\kalendardtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\factories\\kalendardtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\services\\observers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\services\\observers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\observers\\emailnotifiertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\observers\\emailnotifiertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|d:\\piproject\\backend\\campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F0483-0B12-4878-8DB6-83212D8E2DB2}|CampusEventHubApi\\CampusEventHubApi.csproj|solutionrelative:campuseventhubapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\ocjenaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\ocjenaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\decorators\\validationdecoratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\decorators\\validationdecoratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\decorators\\ocjenavalidationdecoratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\decorators\\ocjenavalidationdecoratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\ratingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\ratingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|d:\\piproject\\backend\\campuseventhubapi-nunittests\\services\\notificationmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB0F28-CB6E-4664-97F1-A313044160AF}|CampusEventHubApi-nUnitTests\\CampusEventHubApi-nUnitTests.csproj|solutionrelative:campuseventhubapi-nunittests\\services\\notificationmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,69 +142,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250102163239_potencialnifix.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102163239_potencialnifix.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:32:39.773Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Title": "KalendarService.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\KalendarService.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\KalendarService.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\KalendarService.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\KalendarService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T15:59:39.354Z",
+              "WhenOpened": "2025-01-20T16:52:28.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\EventsController.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAIwF0AAAAJAAAAAAAAAA==",
+              "Title": "OcjenaValidationDecorator.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Decorators\\OcjenaValidationDecorator.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Decorators\\OcjenaValidationDecorator.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Decorators\\OcjenaValidationDecorator.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\Decorators\\OcjenaValidationDecorator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:08:48.363Z",
+              "WhenOpened": "2025-01-20T16:52:21.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "ValidationDecorator.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Decorators\\ValidationDecorator.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Decorators\\ValidationDecorator.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Decorators\\ValidationDecorator.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\Decorators\\ValidationDecorator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:52:19.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IKalendarService.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IKalendarService.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Interfaces\\IKalendarService.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IKalendarService.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\Interfaces\\IKalendarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:51:43.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "CampusEventHubApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:22:43.38Z"
+              "WhenOpened": "2025-01-20T16:51:34.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\TestController.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\TestController.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "KalendarController.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\KalendarController.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\KalendarController.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\KalendarController.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Controllers\\KalendarController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGcAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:15:48.909Z",
+              "WhenOpened": "2025-01-20T16:51:17.056Z",
               "EditorCaption": ""
             },
             {
@@ -147,131 +230,322 @@
               "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\Event.cs",
               "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\Event.cs",
               "RelativeToolTip": "CampusEventHubApi\\Models\\Event.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:20:42.898Z"
+              "WhenOpened": "2025-01-20T16:39:49.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\AuthenticationService.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "OcjenaTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\OcjenaTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Models\\OcjenaTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\OcjenaTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Models\\OcjenaTests.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA9wC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T15:59:35.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\appsettings.json",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\appsettings.json",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\appsettings.json",
-              "RelativeToolTip": "CampusEventHubApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T10:43:31.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Program.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:33:58.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PasswordHashProvider.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Security\\PasswordHashProvider.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Security\\PasswordHashProvider.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Security\\PasswordHashProvider.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Security\\PasswordHashProvider.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T17:12:03.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEventManagementService.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Services\\Interfaces\\IEventManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:20:56.179Z"
+              "WhenOpened": "2025-01-20T15:28:38.913Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20250102160145_SolidPrincipTest1.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102160145_SolidPrincipTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "JwtTokenProviderTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Security\\JwtTokenProviderTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Security\\JwtTokenProviderTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Security\\JwtTokenProviderTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Security\\JwtTokenProviderTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:01:45.73Z"
+              "WhenOpened": "2025-01-20T14:04:49.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250102123933_SplitTest1.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Migrations\\20250102123933_SplitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\AuthenticationServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\AuthenticationServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\AuthenticationServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\AuthenticationServiceTests.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:39:34.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "CampusEventHubApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:11:53.791Z"
+              "WhenOpened": "2025-01-20T13:56:40.839Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "EventServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\EventServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\EventServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\EventServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\EventServiceTests.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAQwM4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:11:51.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KalendarServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\KalendarServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\KalendarServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\KalendarServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\KalendarServiceTests.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:18:03.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserManagementServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\UserManagementServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\UserManagementServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\UserManagementServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\UserManagementServiceTests.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAQwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:54:04.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Controllers\\UserControllerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Controllers\\UserControllerTests.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:32:22.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\EventTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Models\\EventTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\EventTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Models\\EventTests.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAwGMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:34:21.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KalendarTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\KalendarTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Models\\KalendarTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Models\\KalendarTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Models\\KalendarTests.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:35:03.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OcjeneControllerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\OcjeneControllerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Controllers\\OcjeneControllerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\OcjeneControllerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Controllers\\OcjeneControllerTests.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:24:25.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KalendarControllerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\KalendarControllerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Controllers\\KalendarControllerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\KalendarControllerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Controllers\\KalendarControllerTests.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwJsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:19:52.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventsControllerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\EventsControllerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Controllers\\EventsControllerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\EventsControllerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Controllers\\EventsControllerTests.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAwwAoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:14:47.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAQwHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:08:14.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "CampusEventHubApi\\Models\\User.cs",
               "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Models\\User.cs",
               "RelativeToolTip": "CampusEventHubApi\\Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:20:36.215Z"
+              "WhenOpened": "2025-01-20T16:00:10.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CampusEventHubApi\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CampusEventHubApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-02T15:58:32.709Z"
+              "DocumentIndex": 23,
+              "Title": "StrategyType.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Enums\\StrategyType.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Enums\\StrategyType.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Enums\\StrategyType.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Enums\\StrategyType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:50:32.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OcjenaDtoFactoryTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Factories\\OcjenaDtoFactoryTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Factories\\OcjenaDtoFactoryTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Factories\\OcjenaDtoFactoryTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Factories\\OcjenaDtoFactoryTests.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAiwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:48:36.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KalendarDtoFactoryTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Factories\\KalendarDtoFactoryTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Factories\\KalendarDtoFactoryTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Factories\\KalendarDtoFactoryTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Factories\\KalendarDtoFactoryTests.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAiwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:47:13.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KalendarDtoFactory.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Factories\\KalendarDtoFactory.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Factories\\KalendarDtoFactory.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Factories\\KalendarDtoFactory.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Factories\\KalendarDtoFactory.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvyEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:37:46.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmailNotifierTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Observers\\EmailNotifierTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\Observers\\EmailNotifierTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Observers\\EmailNotifierTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\Observers\\EmailNotifierTests.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAiwE0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:34:37.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Program.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Program.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAI8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:57:29.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Observers\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi\\Services\\Observers\\EmailNotifier.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi\\Services\\Observers\\EmailNotifier.cs",
+              "RelativeToolTip": "CampusEventHubApi\\Services\\Observers\\EmailNotifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:01:14.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OcjenaServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\OcjenaServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\OcjenaServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\OcjenaServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\OcjenaServiceTests.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAIwA4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:26:43.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ValidationDecoratorTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Decorators\\ValidationDecoratorTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\Decorators\\ValidationDecoratorTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Decorators\\ValidationDecoratorTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\Decorators\\ValidationDecoratorTests.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:04:52.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OcjenaValidationDecoratorTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Decorators\\OcjenaValidationDecoratorTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\Decorators\\OcjenaValidationDecoratorTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\Decorators\\OcjenaValidationDecoratorTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\Decorators\\OcjenaValidationDecoratorTests.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAuwG0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:02:33.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RatingServiceTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\RatingServiceTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\RatingServiceTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\RatingServiceTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\RatingServiceTests.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwCEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:43:59.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NotificationManagerTests.cs",
+              "DocumentMoniker": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\NotificationManagerTests.cs",
+              "RelativeDocumentMoniker": "CampusEventHubApi-nUnitTests\\Services\\NotificationManagerTests.cs",
+              "ToolTip": "D:\\PIProject\\backend\\CampusEventHubApi-nUnitTests\\Services\\NotificationManagerTests.cs",
+              "RelativeToolTip": "CampusEventHubApi-nUnitTests\\Services\\NotificationManagerTests.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:21:00.132Z"
             }
           ]
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace CampusEventHubApi.Models
 {
     public class User
@@ -14,6 +15,7 @@ namespace CampusEventHubApi.Models
 
         [Required]
         [MaxLength(100)]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required]

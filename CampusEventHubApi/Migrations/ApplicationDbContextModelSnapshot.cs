@@ -73,6 +73,70 @@ namespace CampusEventHubApi.Migrations
                     b.ToTable("Event", (string)null);
                 });
 
+            modelBuilder.Entity("CampusEventHubApi.Models.Kalendar", b =>
+                {
+                    b.Property<int>("KalendarID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("KalendarID"));
+
+                    b.Property<DateTime>("Datum")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Kreirano")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.Property<string>("Naslov")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Opis")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<TimeSpan?>("Vrijeme")
+                        .HasColumnType("time");
+
+                    b.HasKey("KalendarID");
+
+                    b.ToTable("Kalendar", (string)null);
+                });
+
+            modelBuilder.Entity("CampusEventHubApi.Models.Ocjena", b =>
+                {
+                    b.Property<int>("OcjenaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OcjenaID"));
+
+                    b.Property<int>("EventID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Komentar")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Kreirano")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OcjenaVrijednost")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("OcjenaID");
+
+                    b.HasIndex("EventID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Ocjene");
+                });
+
             modelBuilder.Entity("CampusEventHubApi.Models.User", b =>
                 {
                     b.Property<int>("IDUser")
@@ -119,6 +183,25 @@ namespace CampusEventHubApi.Migrations
                     b.HasKey("IDUser");
 
                     b.ToTable("User", (string)null);
+                });
+
+            modelBuilder.Entity("CampusEventHubApi.Models.Ocjena", b =>
+                {
+                    b.HasOne("CampusEventHubApi.Models.Event", "Event")
+                        .WithMany()
+                        .HasForeignKey("EventID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CampusEventHubApi.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }
